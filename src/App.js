@@ -1,8 +1,16 @@
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
-    <div>
-      <h2>Hello</h2>
-    </div>
+    <BrowserRouter>
+      <header></header>
+      <main></main>
+      <footer></footer>
+    </BrowserRouter>
   );
 }
 
