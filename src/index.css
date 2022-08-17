@@ -2,7 +2,8 @@
   /* Colors */
   --primary-green: #308057;
   --secondary-green: #3fa472;
-  --secondary-color-hover: #012641;
+  --primary-maroon: #741b18;
+  --primary-brown: #ee9669;
   --third-color: gray;
   --white: #ffffff;
   --second-white: #f0f0f0;
@@ -17,11 +18,11 @@
 }
 
 ::selection {
-  background: var(--secondary-color);
+  background: var(--primary-green);
   color: var(--white);
 }
 ::-moz-selection {
-  background: var(--secondary-color);
+  background: var(--primary-green);
   color: var(--white);
 }
 
@@ -74,4 +75,118 @@ code {
   color: var(--white);
   text-decoration: none;
   font-size: 20px;
+}
+
+.my_card {
+  margin-bottom: 10px;
+  border-left: solid 15px var(--primary-maroon);
+  border-radius: 0 10px 10px 0;
+}
+
+.my_card_b {
+  margin-bottom: 10px;
+  border-left: solid 15px var(--primary-brown);
+  border-radius: 0 10px 10px 0;
+}
+
+.my_card_c {
+  margin-bottom: 10px;
+  border-left: solid 15px var(--primary-green);
+  border-radius: 0 10px 10px 0;
+}
+
+.card_briefs {
+  display: flex;
+}
+
+.card_briefs_b {
+  display: flex;
+}
+
+.card_briefs_c {
+  display: flex;
+}
+
+.brief_image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.brief_content small {
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.brief_content_tasks_team p {
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.brief_content span {
+  font-size: 18px;
+  color: var(--primary-maroon);
+  line-height: 0;
+}
+
+.brief_content_tasks h6 {
+  font-size: 18px;
+  color: var(--primary-brown);
+}
+
+.brief_content_tasks_team h6 {
+  font-size: 18px;
+  color: var(--primary-green);
+}
+
+.brief_content_tasks {
+  font-size: 12px;
+}
+
+.brief_link_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.card_briefs_bs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -20px;
+  padding-bottom: 5px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  margin: 10px 0 0 5px;
+}
+
+.progress-bar {
+  background-color: #eba581;
+  height: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.brief_left_icon {
+  font-size: 40px;
+  color: var(--primary-brown);
+  padding-right: 15px;
+}
+
+.brief_left_icon_team {
+  font-size: 40px;
+  color: var(--primary-green);
+  padding-right: 15px;
+}
+
+.brief_icon {
+  color: #c7c7c7;
 }
