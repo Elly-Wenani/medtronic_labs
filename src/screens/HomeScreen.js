@@ -12,13 +12,19 @@ function HomeScreen() {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <LandingImageSlide />
+            <div style={{ padding: '30px 0' }}>
+              <LandingImageSlide />
+            </div>
           </Col>
           <Col md={3}>
-            <LandingBriefs />
+            <div style={{ padding: '30px 0' }}>
+              <LandingBriefs />
+            </div>
           </Col>
           <Col md={3}>
-            <LandingAnnouncements />
+            <div style={{ padding: '30px 0' }}>
+              <LandingAnnouncements />
+            </div>
           </Col>
         </Row>
       </Container>

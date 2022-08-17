@@ -46,7 +46,10 @@ function LandingBriefs() {
       <Card className="my_card_c">
         <Card.Body className="card_briefs_c">
           <Card.Title>
-            <i class="fa fa-users brief_left_icon_team" aria-hidden="true"></i>
+            <i
+              className="fa fa-users brief_left_icon_team"
+              aria-hidden="true"
+            ></i>
           </Card.Title>
           <div className="brief_content_tasks_team">
             <h6>Connect with team</h6>
@@ -54,7 +57,7 @@ function LandingBriefs() {
           </div>
         </Card.Body>
 
-        <Row className="card_briefs_bs">
+        <Row className="card_briefs_bss">
           <Col xm={1}></Col>
           <Col xm={7} sm={7}></Col>
           <Col xm={1}>

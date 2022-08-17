@@ -45,6 +45,37 @@ code {
   font-family: 'Inter', sans-serif;
 }
 
+.landing_img_container {
+  background-image: linear-gradient(to top, #000000ba, #0000001e),
+    url(./../public/images/shutterstock_1874668861.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 335px;
+}
+
+.my_carousel {
+  width: 100%;
+  height: 335px;
+  color: var(--white);
+}
+
+.my_carousel_b {
+  display: flex;
+  flex-direction: column;
+  padding: 180px 0 0 20px;
+}
+
+.featured_link {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--primary-green);
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 2px 10px;
+}
+
 .announcement_card_head {
   background-color: var(--primary-green);
   color: var(--white);
@@ -78,19 +109,18 @@ code {
 }
 
 .my_card {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-left: solid 15px var(--primary-maroon);
   border-radius: 0 10px 10px 0;
 }
 
 .my_card_b {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-left: solid 15px var(--primary-brown);
   border-radius: 0 10px 10px 0;
 }
 
 .my_card_c {
-  margin-bottom: 10px;
   border-left: solid 15px var(--primary-green);
   border-radius: 0 10px 10px 0;
 }
@@ -158,6 +188,14 @@ code {
   align-items: center;
   justify-content: flex-end;
   margin-top: -20px;
+  padding-bottom: 5px;
+}
+
+.card_briefs_bss {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -35px;
   padding-bottom: 5px;
 }
 
