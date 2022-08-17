@@ -1,7 +1,7 @@
 :root {
   /* Colors */
-  --primary-color: #ff8600;
-  --secondary-color: #03365a;
+  --primary-green: #308057;
+  --secondary-green: #3fa472;
   --secondary-color-hover: #012641;
   --third-color: gray;
   --white: #ffffff;
@@ -31,14 +31,47 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Inter', sans-serif;
+}
+
+.primary-font {
+  font-family: 'Inter', sans-serif;
+}
+
+.announcement_card_head {
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-style: none;
+}
+
+.announcement_card_head_content {
+  align-items: center;
+}
+
+.announce {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 0 20px;
+}
+
+.announcement_card_head i {
+  font-size: 40px;
+}
+
+.announcement_card_body {
+  background-color: var(--secondary-green);
+  color: var(--white);
+  border-style: none;
+}
+
+.anouncement_card_link {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 20px;
 }
