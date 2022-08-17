@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
+import CompanyNews from '../components/CompanyNews';
 import LandingAnnouncements from '../components/LandingAnnouncements';
 import LandingBriefs from '../components/LandingBriefs';
 import LandingImageSlide from '../components/LandingImageSlide';
@@ -14,6 +15,9 @@ function HomeScreen() {
           <Col md={6}>
             <div style={{ padding: '30px 0' }}>
               <LandingImageSlide />
+            </div>
+            <div className="company_news_container">
+              <CompanyNews />
             </div>
           </Col>
           <Col md={3}>

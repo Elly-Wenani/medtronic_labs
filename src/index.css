@@ -4,6 +4,7 @@
   --secondary-green: #3fa472;
   --primary-maroon: #741b18;
   --primary-brown: #ee9669;
+  --primary-gold: #9c4341;
   --third-color: gray;
   --white: #ffffff;
   --second-white: #f0f0f0;
@@ -35,6 +36,7 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e2e7e9;
 }
 
 code {
@@ -110,17 +112,20 @@ code {
 
 .my_card {
   margin-bottom: 15px;
+  border-style: none;
   border-left: solid 15px var(--primary-maroon);
   border-radius: 0 10px 10px 0;
 }
 
 .my_card_b {
   margin-bottom: 15px;
+  border-style: none;
   border-left: solid 15px var(--primary-brown);
   border-radius: 0 10px 10px 0;
 }
 
 .my_card_c {
+  border-style: none;
   border-left: solid 15px var(--primary-green);
   border-radius: 0 10px 10px 0;
 }
@@ -188,7 +193,7 @@ code {
   align-items: center;
   justify-content: flex-end;
   margin-top: -20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .card_briefs_bss {
@@ -227,4 +232,54 @@ code {
 
 .brief_icon {
   color: #c7c7c7;
+}
+
+/* ----------------- */
+
+.company_news_container {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.my_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my_row h6 {
+  font-size: 18px;
+  color: var(--primary-gold);
+}
+
+.btn_news {
+  color: var(--white);
+  background: linear-gradient(to left, #d85b3b, #9c4341);
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 4px 10px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn_news:hover {
+  cursor: pointer;
+}
+
+.the_news span {
+  font-size: 12px;
+  color: var(--primary-green);
+}
+
+.the_news h5 {
+  font-size: 18px;
+  color: #333;
+  padding-top: 20px;
+}
+
+.the_news p {
+  font-size: 15px;
+  color: var(--gray);
 }
