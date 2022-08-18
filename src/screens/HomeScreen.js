@@ -5,6 +5,7 @@ import CompanyNews from '../components/CompanyNews';
 import LandingAnnouncements from '../components/LandingAnnouncements';
 import LandingBriefs from '../components/LandingBriefs';
 import LandingImageSlide from '../components/LandingImageSlide';
+import UpcomingEvents from '../components/UpcomingEvents';
 
 function HomeScreen() {
   return (
@@ -23,6 +24,9 @@ function HomeScreen() {
           <Col md={3}>
             <div style={{ padding: '30px 0' }}>
               <LandingBriefs />
+            </div>
+            <div className="company_news_container">
+              <UpcomingEvents />
             </div>
           </Col>
           <Col md={3}>

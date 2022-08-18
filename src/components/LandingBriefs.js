@@ -11,7 +11,7 @@ function LandingBriefs() {
           </Card.Title>
           <Card.Text className="brief_content">
             <small>09:30 AM Wednesday, July 14 2022 </small>
-            <span>Fantastic Morning Aron Chege</span>
+            <p>Fantastic Morning Aron Chege</p>
           </Card.Text>
         </Card.Body>
       </Card>
@@ -28,11 +28,11 @@ function LandingBriefs() {
         </Card.Body>
 
         <Row className="card_briefs_bs">
-          <Col xm={1}></Col>
-          <Col xm={7} sm={7}>
+          <Col xs={3}></Col>
+          <Col xs={7} sm={7}>
             <ProgressBar now={50} />
           </Col>
-          <Col xm={1}>
+          <Col xs={2}>
             <Card.Link href="#">
               <i
                 className="fa fa-arrow-right brief_icon"
@@ -58,9 +58,9 @@ function LandingBriefs() {
         </Card.Body>
 
         <Row className="card_briefs_bss">
-          <Col xm={1}></Col>
-          <Col xm={7} sm={7}></Col>
-          <Col xm={1}>
+          <Col xs={3}></Col>
+          <Col xs={7} sm={7}></Col>
+          <Col xs={2}>
             <Card.Link href="#">
               <i
                 className="fa fa-arrow-right brief_icon"

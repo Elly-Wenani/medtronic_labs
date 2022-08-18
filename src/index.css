@@ -152,7 +152,7 @@ code {
 }
 
 .brief_content small {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--gray);
 }
 
@@ -161,10 +161,10 @@ code {
   color: var(--gray);
 }
 
-.brief_content span {
+.brief_content p {
   font-size: 18px;
   color: var(--primary-maroon);
-  line-height: 0;
+  line-height: 1.2;
 }
 
 .brief_content_tasks h6 {
@@ -282,4 +282,111 @@ code {
 .the_news p {
   font-size: 15px;
   color: var(--gray);
+}
+
+/* ------------- */
+.upcoming_news_container {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #999999;
+  padding-bottom: 20px;
+}
+
+.upcoming_news_container i {
+  font-size: 35px;
+  color: var(--primary-gold);
+}
+
+.upcoming_news_container h6 {
+  font-size: 18px;
+  color: var(--primary-gold);
+  padding-top: 5px;
+}
+
+.upcoming_news_date {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.upcoming_news_date p {
+  font-size: 10px;
+  color: var(--gray);
+  margin-top: -5px;
+}
+
+.upcoming_news_details {
+  border-left: solid 1px var(--gray);
+}
+
+.upcoming_events_main_cont {
+  align-items: center;
+}
+
+.upcoming_news_details h6 {
+  font-size: 12px;
+  color: #6a95bf;
+}
+
+.btn-pending {
+  color: var(--white);
+  background-color: #f7952c;
+  border-radius: 10px;
+  font-size: 8px;
+  padding: 2px 10px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn-pending:hover {
+  cursor: pointer;
+  background-color: #f7952c;
+  color: var(--white);
+}
+
+.btn-pending2 {
+  color: var(--white);
+  background-color: #308e7a;
+  border-radius: 10px;
+  font-size: 8px;
+  padding: 2px 10px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn-pending2:hover {
+  cursor: pointer;
+  background-color: #308e7a;
+  color: var(--white);
+}
+
+.btn-pending3 {
+  color: var(--white);
+  background-color: #4282c3;
+  border-radius: 10px;
+  font-size: 8px;
+  padding: 2px 10px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn-pending3:hover {
+  cursor: pointer;
+  background-color: #4282c3;
+  color: var(--white);
+}
+
+.btn-pending4 {
+  color: var(--white);
+  background-color: #e8465c;
+  border-radius: 10px;
+  font-size: 8px;
+  padding: 2px 10px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn-pending4:hover {
+  cursor: pointer;
+  background-color: #e8465c;
+  color: var(--white);
 }
