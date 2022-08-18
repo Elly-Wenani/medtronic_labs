@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
+import Birthday from '../components/Birthday';
 import CompanyNews from '../components/CompanyNews';
 import Employees from '../components/Employees';
 import LandingAnnouncements from '../components/LandingAnnouncements';
@@ -41,6 +42,10 @@ function HomeScreen() {
             </div>
             <div style={{ marginBottom: '30px' }}>
               <QuickLinks />
+            </div>
+
+            <div style={{ marginBottom: '30px' }}>
+              <Birthday />
             </div>
           </Col>
         </Row>
