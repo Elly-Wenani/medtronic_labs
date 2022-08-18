@@ -6,6 +6,7 @@ import Employees from '../components/Employees';
 import LandingAnnouncements from '../components/LandingAnnouncements';
 import LandingBriefs from '../components/LandingBriefs';
 import LandingImageSlide from '../components/LandingImageSlide';
+import QuickLinks from '../components/QuickLinks';
 import UpcomingEvents from '../components/UpcomingEvents';
 
 function HomeScreen() {
@@ -37,6 +38,9 @@ function HomeScreen() {
           <Col md={3}>
             <div style={{ padding: '30px 0' }}>
               <LandingAnnouncements />
+            </div>
+            <div style={{ marginBottom: '30px' }}>
+              <QuickLinks />
             </div>
           </Col>
         </Row>
