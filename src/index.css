@@ -730,3 +730,16 @@ code {
 .drop_dwn a:hover {
   color: #445aff;
 }
+
+.seach {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.seachi {
+  color: #a3a3a3;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #d4d4d4;
+}
