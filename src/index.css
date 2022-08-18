@@ -571,3 +571,23 @@ code {
 .next_birthday {
   display: flex;
 }
+
+/* ---------- */
+
+.about_card {
+  margin-top: 20px;
+  padding: 25px 25px 0 25px;
+  border-style: none;
+  border-radius: 30px;
+}
+
+.about_card h1 {
+  font-size: 30px;
+  color: #4d50a4;
+  padding-bottom: 30px;
+}
+
+.about_img {
+  width: 70%;
+  height: auto;
+}

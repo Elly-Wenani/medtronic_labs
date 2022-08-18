@@ -1,12 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import AboutUs from '../components/AboutUs';
 
 function OurCompany() {
   return (
-    <div>
+    <div style={{ paddingTop: '60px' }}>
       <Helmet title="Our Company | Meditronics Lab" />
 
-      <p>Our Company</p>
+      <div>
+        <AboutUs />
+      </div>
     </div>
   );
 }
