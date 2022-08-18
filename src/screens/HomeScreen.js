@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import CompanyNews from '../components/CompanyNews';
+import Employees from '../components/Employees';
 import LandingAnnouncements from '../components/LandingAnnouncements';
 import LandingBriefs from '../components/LandingBriefs';
 import LandingImageSlide from '../components/LandingImageSlide';
@@ -27,6 +28,10 @@ function HomeScreen() {
             </div>
             <div className="company_news_container">
               <UpcomingEvents />
+            </div>
+
+            <div className="company_news_container">
+              <Employees />
             </div>
           </Col>
           <Col md={3}>
