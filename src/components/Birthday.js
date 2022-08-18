@@ -10,7 +10,7 @@ function Birthday() {
             <h3>Happy</h3>
             <span className="birthday_title">Birthday</span>
           </Card.Title>
-          <Card.Title>
+          <Card.Title className="b_img_container">
             <Image
               src="/images/shutterstock_1361068562.jpg"
               className="birthday_image"
