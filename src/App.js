@@ -1,8 +1,6 @@
-import { Container, Nav, Navbar } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
+import NavgiationBar from './screens/NavgiationBar';
 import NotFound from './screens/NotFound';
 import OurCompany from './screens/OurCompany';
 import ScrollToTop from './utilis/ScrollToTop';
@@ -11,27 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <Navbar
-          fixed="top"
-          collapseOnSelect
-          expand="lg"
-          style={{ backgroundColor: '#f9f9f9' }}
-          variant="dark"
-        >
-          <Container>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto"></Nav>
-
-              <Nav>
-                <LinkContainer className="my-link" to="/">
-                  <Nav.Link>Home</Nav.Link>
-                </LinkContainer>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+        <NavgiationBar />
       </header>
       <main>
         <ScrollToTop />
